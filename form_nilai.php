@@ -24,11 +24,11 @@
                 <form method="POST" action="array_siswa.php">
                     <div class="form-group">
                         <label>Nama:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama" name="nama[]">
+                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama" name="nama">
                     </div>
                     <div class="form-group">
                         <label>Mata Kuliah:</label>
-                        <select class="form-control" name="matkul[]">
+                        <select class="form-control" name="matkul">
                             <option value="DDP">Dasar-Dasar Pemrograman</option>
                             <option value="BDI">Basis Data I</option>
                             <option value="WEB1">Pemrograman Web</option>
@@ -36,15 +36,15 @@
                     </div>
                     <div class="form-group">
                         <label>Nilai UTS:</label>
-                        <input type="number" class="form-control" placeholder="Masukkan nilai UTS" name="nilai_uts[]">
+                        <input type="number" class="form-control" placeholder="Masukkan nilai UTS" name="nilai_uts">
                     </div>
                     <div class="form-group">
                         <label>Nilai UAS:</label>
-                        <input type="number" class="form-control" placeholder="Masukkan nilai UAS" name="nilai_uas[]">
+                        <input type="number" class="form-control" placeholder="Masukkan nilai UAS" name="nilai_uas">
                     </div>
                     <div class="form-group">
                         <label>Nilai Tugas/Praktikum:</label>
-                        <input type="number" class="form-control" placeholder="Masukkan nilai Tugas" name="nilai_tugas[]">
+                        <input type="number" class="form-control" placeholder="Masukkan nilai Tugas" name="nilai_tugas">
                     </div>
                     <button type="submit" class="btn btn-success">Kirim</button>
                 </form>
